@@ -20,8 +20,6 @@ jobs:
           - Day5
           - Day6
           - Day7
-          - Day8
-          - Day9
     name: Run Haskell Executable
     runs-on: ubuntu-latest
     steps:

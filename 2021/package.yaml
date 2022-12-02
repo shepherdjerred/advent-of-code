@@ -42,9 +42,3 @@ executables:
   Day7:
     main: Main.hs
     source-dirs: Day7
-  Day8:
-    main: Main.hs
-    source-dirs: Day8
-  Day9:
-    main: Main.hs
-    source-dirs: Day9
