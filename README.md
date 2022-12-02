@@ -1,6 +1,6 @@
 # Advent of Code
 
-[![Advent of Code Banner](../advent-of-code.jpg)](https://adventofcode.com/)
+[![Advent of Code Banner](./advent-of-code.jpg)](https://adventofcode.com/)
 
 ## Years
 

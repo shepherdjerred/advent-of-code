@@ -1,6 +1,6 @@
 # Advent of Code 2021
 
-[![Haskell](https://github.com/shepherdjerred/advent-of-code-2021/actions/workflows/Haskell.yml/badge.svg)](https://github.com/shepherdjerred/advent-of-code-2021/actions/workflows/Haskell.yml)
+[![2021](https://github.com/shepherdjerred/advent-of-code/actions/workflows/2021.yml/badge.svg)](https://github.com/shepherdjerred/advent-of-code/actions/workflows/2021.yml)
 
 [![Advent of Code Banner](./advent_of_code_2021.png)](https://adventofcode.com/2021)
 
