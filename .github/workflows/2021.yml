@@ -1,5 +1,13 @@
-on: [push]
-name: Haskell
+on:
+  push:
+    paths:
+      - "2021/**"
+name: 2021
+
+defaults:
+  run:
+    working-directory: 2021/
+
 jobs:
   haskell:
     strategy:
