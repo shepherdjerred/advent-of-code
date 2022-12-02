@@ -1,6 +1,6 @@
 # Advent of Code 2022
 
-[![Advent of Code Banner](./advent-of-code.jpg)](https://adventofcode.com/2022)
+[![Advent of Code Banner](../advent-of-code.jpg)](https://adventofcode.com/2022)
 
 My solutions to Advent of Code 2022 written in Haskell.
 
