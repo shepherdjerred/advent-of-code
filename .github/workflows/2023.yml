@@ -1,0 +1,22 @@
+on:
+  push:
+    paths:
+      - "2023/**"
+name: 2023
+defaults:
+  run:
+    working-directory: 2023/
+jobs:
+  typescript:
+    strategy:
+      matrix:
+        day:
+          - 1
+    name: Run Haskell Executable
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: earthly/actions-setup@v1.0.7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - run: earthly +test --day=${{ matrix.day }}
