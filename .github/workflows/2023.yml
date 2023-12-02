@@ -13,7 +13,7 @@ jobs:
         day:
           - 1
           - 2
-    name: Run Haskell Executable
+    name: Run tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
