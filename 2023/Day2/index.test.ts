@@ -2,11 +2,11 @@ import { expect, test } from "bun:test";
 import { solvePartOne, solvePartTwo } from ".";
 
 test("part one example", async () => {
-  expect(await solvePartOne("in.part1.example.txt")).toEqual(142);
+  expect(await solvePartOne("in.part1.example.txt")).toEqual(8);
 });
 
 test("part one", async () => {
-  // expect(await solvePartOne("in.part1.txt")).toMatchSnapshot();
+  expect(await solvePartOne("in.part1.txt")).toMatchSnapshot();
 });
 
 test("part two example", async () => {
