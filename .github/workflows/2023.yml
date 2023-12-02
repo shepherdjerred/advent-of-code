@@ -21,11 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       EARTHLY_TOKEN: ${{ secrets.EARTHLY_TOKEN }}
-      SATELLITE_NAME: advent-of-code
-      EARTHLY_ORG: sjerred
     steps:
       - uses: actions/checkout@v3
       - uses: earthly/actions-setup@v1.0.7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-      - run: earthly +test --day=${{ matrix.day }}
+      - run: earthly --sat advent-of-code --org sjerred +test --day=${{ matrix.day }}
