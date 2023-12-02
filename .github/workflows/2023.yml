@@ -22,6 +22,7 @@ jobs:
     env:
       EARTHLY_TOKEN: ${{ secrets.EARTHLY_TOKEN }}
       SATELLITE_NAME: advent-of-code
+      EARTHLY_ORG: sjerred
     steps:
       - uses: actions/checkout@v3
       - uses: earthly/actions-setup@v1.0.7
