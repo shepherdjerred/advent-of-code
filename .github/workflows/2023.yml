@@ -1,11 +1,15 @@
+name: 2023
+
 on:
   push:
     paths:
       - "2023/**"
-name: 2023
+  workflow_dispatch:
+
 defaults:
   run:
     working-directory: 2023/
+
 jobs:
   typescript:
     strategy:
