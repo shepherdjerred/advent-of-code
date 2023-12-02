@@ -26,4 +26,4 @@ jobs:
       - uses: earthly/actions-setup@v1.0.7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-      - run: earthly --say=advent-of-code +test --day=${{ matrix.day }}
+      - run: earthly --sat=advent-of-code +test --day=${{ matrix.day }}
