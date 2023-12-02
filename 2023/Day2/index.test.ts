@@ -9,10 +9,11 @@ test("part one", async () => {
   expect(await solvePartOne("in.part1.txt")).toMatchSnapshot();
 });
 
+// Part two uses the same input as part one
 test("part two example", async () => {
-  // expect(await solvePartTwo("in.part2.example.txt")).toEqual(281);
+  expect(await solvePartTwo("in.part1.example.txt")).toEqual(2286);
 });
 
 test("part two", async () => {
-  // expect(await solvePartTwo("in.part2.txt")).toMatchSnapshot();
+  expect(await solvePartTwo("in.part1.txt")).toMatchSnapshot();
 });
