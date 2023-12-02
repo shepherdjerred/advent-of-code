@@ -15,6 +15,9 @@ jobs:
           - 2
     name: Run tests
     runs-on: ubuntu-latest
+    env:
+      SATELLITE_NAME: advent-of-code
+      EARTHLY_TOKEN: ${{ secrets.EARTHLY_TOKEN }}
     steps:
       - uses: actions/checkout@v3
       - uses: earthly/actions-setup@v1.0.7
